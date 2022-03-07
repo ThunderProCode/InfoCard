@@ -4,7 +4,7 @@ Used:
 * HTML
 * CSS
 
-![screenshot](screenshot.png)
+<img src="screenshot.png" alt="card screenshot" width="200"/>
 
 Link:
 https://thunderprocode.github.io/InfoCard/
