@@ -1,0 +1,97 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    width: 400px;
+    height: 500px;
+    margin: 5rem auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px  0 rgba(0, 0,0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img:nth-child(1) {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+}
+
+.card img:nth-child(2){
+    width: 30%;
+    height: 25%;
+    position: relative;
+    top: -6rem;
+    border-radius: 50%;
+    padding: 0;
+    border: 5px solid rgb(255, 255, 255);
+    object-fit: cover;
+}
+
+
+.card{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card .username{
+    margin-top: -6rem;
+    font-size: 2.8rem;
+    font-weight: 1.6rem;
+}
+
+.card .role {
+    margin-top: -2.5rem;
+}
+
+.card .info{
+    background: rgb(187,209,231);
+    margin-top: 3rem;
+    width: 50%;
+    height: 0.5%;
+}
+
+.card .socialmedia{
+    margin-top: 0.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.card .socialmedia a{
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: black;
+}
+
+.card .follow{
+    position: absolute;
+    bottom: 0px;
+    background: rgb(187,209,231);
+    display: flex;
+    width: 400px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card .location{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%
+}
+
+.card .location svg{
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+}
